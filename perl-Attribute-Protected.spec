@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Attribute
-%define	pnam	Protected
+%define		pdir	Attribute
+%define		pnam	Protected
 Summary:	Attribute::Protected - implementing proctected methods with attributes
 Summary(pl):	Attribute::Protected - implementacja metod i atrybutów chronionych
 Name:		perl-Attribute-Protected
