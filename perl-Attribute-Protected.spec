@@ -41,7 +41,7 @@ Attribute::Protected implementuje co¶ na kszta³t publicznych / prywatnych
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 #%{__make} test
 
