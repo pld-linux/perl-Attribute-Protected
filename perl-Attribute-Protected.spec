@@ -7,7 +7,7 @@
 %define	pnam	Protected
 Summary:	Attribute::Protected - implementing proctected methods with attributes
 Summary(pl):	Attribute::Protected - implementacja metod i atrybutów chronionych
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Attribute-Protected
 Version:	0.03
 Release:	3
 # same as perl
