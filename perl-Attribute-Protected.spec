@@ -43,7 +43,7 @@ Attribute::Protected implementuje co¶ na kszta³t publicznych / prywatnych
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 
