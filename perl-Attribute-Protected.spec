@@ -9,7 +9,7 @@ Summary:	Attribute::Protected - implementing proctected methods with attributes
 Summary(pl):	Attribute::Protected - implementacja metod i atrybutów chronionych
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
