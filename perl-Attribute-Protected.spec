@@ -1,4 +1,3 @@
-# $Revision: 1.1 $
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Attribute
 %define	pnam	Protected
