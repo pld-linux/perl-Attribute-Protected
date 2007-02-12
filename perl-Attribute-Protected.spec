@@ -6,7 +6,7 @@
 %define		pdir	Attribute
 %define		pnam	Protected
 Summary:	Attribute::Protected - implementing proctected methods with attributes
-Summary(pl):	Attribute::Protected - implementacja metod i atrybutÛw chronionych
+Summary(pl.UTF-8):   Attribute::Protected - implementacja metod i atrybut√≥w chronionych
 Name:		perl-Attribute-Protected
 Version:	0.03
 Release:	3
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Attribute::Protected implements something like public / private /
 protected methods in C++ or Java.
 
-%description -l pl
-Attribute::Protected implementuje co∂ na kszta≥t publicznych / prywatnych
+%description -l pl.UTF-8
+Attribute::Protected implementuje co≈õ na kszta≈Çt publicznych / prywatnych
 / chronionych metod w C++ i Javie.
 
 %prep
