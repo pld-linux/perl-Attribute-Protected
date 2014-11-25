@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Attribute
 %define		pnam	Protected
+%include	/usr/lib/rpm/macros.perl
 Summary:	Attribute::Protected - implementing proctected methods with attributes
 Summary(pl.UTF-8):	Attribute::Protected - implementacja metod i atrybutów chronionych
 Name:		perl-Attribute-Protected
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	797463820a6149feadf1aa52fae2673a
+URL:		http://search.cpan.org/dist/Attribute-Protected/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -25,8 +26,8 @@ Attribute::Protected implements something like public / private /
 protected methods in C++ or Java.
 
 %description -l pl.UTF-8
-Attribute::Protected implementuje coś na kształt publicznych / prywatnych
-/ chronionych metod w C++ i Javie.
+Attribute::Protected implementuje coś na kształt publicznych /
+prywatnych / chronionych metod w C++ i Javie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
