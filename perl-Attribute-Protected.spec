@@ -4,7 +4,6 @@
 
 %define		pdir	Attribute
 %define		pnam	Protected
-%include	/usr/lib/rpm/macros.perl
 Summary:	Attribute::Protected - implementing proctected methods with attributes
 Summary(pl.UTF-8):	Attribute::Protected - implementacja metod i atrybutów chronionych
 Name:		perl-Attribute-Protected
