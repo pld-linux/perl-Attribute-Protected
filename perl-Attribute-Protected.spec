@@ -8,7 +8,7 @@ Summary:	Attribute::Protected - implementing proctected methods with attributes
 Summary(pl.UTF-8):	Attribute::Protected - implementacja metod i atrybutów chronionych
 Name:		perl-Attribute-Protected
 Version:	0.03
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
